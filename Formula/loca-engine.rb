@@ -75,7 +75,7 @@ class LocaEngine < Formula
     sha256 "3ecdbd8f2cc195f53ccada3a613538bb5f9ef6f6869129f13e03c30a677b8fe2"
   end
 
-  resource "backports.zstd" do
+  resource "backports-zstd" do
     url "https://files.pythonhosted.org/packages/75/f0/9ba1b05811aa5f5434f69768253129460a5744e1814f359efba39a01ce20/backports_zstd-1.7.0.tar.gz"
     sha256 "1a967189c1822b6e85a2e550fdfc88a3272c17633ea0a4732dac5911a8034f2b"
   end
@@ -145,7 +145,7 @@ class LocaEngine < Formula
     sha256 "1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69"
   end
 
-  resource "developer_disk_image" do
+  resource "developer-disk-image" do
     url "https://files.pythonhosted.org/packages/52/f5/16c742e98191761d0925ed424468e3bec14503644c84851046602667d3c3/developer_disk_image-0.3.0.tar.gz"
     sha256 "1fb9841dcc5cf81e697b6e0a9c14909c059c1893d675b38398a91c08cb7ba8bc"
   end
@@ -220,7 +220,7 @@ class LocaEngine < Formula
     sha256 "8919be8c27f20a6f4423145028063f6637b42a03ce57665bb12015ee1f073529"
   end
 
-  resource "ipython_pygments_lexers" do
+  resource "ipython-pygments-lexers" do
     url "https://files.pythonhosted.org/packages/ef/4c/5dd1d8af08107f88c7f741ead7a40854b8ac24ddf9ae850afbcf698aa552/ipython_pygments_lexers-1.1.1.tar.gz"
     sha256 "09c0138009e56b6854f9535736f4171d855c8c08a563a0dcd8022f78355c7e81"
   end
@@ -305,7 +305,7 @@ class LocaEngine < Formula
     sha256 "8861c091f3fae56f89d10136e2cbcfcb108eaf529d09ab9b9894a2910948b138"
   end
 
-  resource "prompt_toolkit" do
+  resource "prompt-toolkit" do
     url "https://files.pythonhosted.org/packages/7d/ea/39b988c938f75cb75d7045b5c69f8bfed47ee2152c8837fb403de29d6fb8/prompt_toolkit-3.0.53.tar.gz"
     sha256 "9ec8a0ad96d5c56148b3f914aa79c1564c3fde5d2e6b876e7bc327e353cf8fa6"
   end
@@ -320,7 +320,7 @@ class LocaEngine < Formula
     sha256 "5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220"
   end
 
-  resource "pure_eval" do
+  resource "pure-eval" do
     url "https://files.pythonhosted.org/packages/da/9f/abfd2959e9261dd5217ca8551d4de211ca6ab26fe9b72cf44731ff6c4442/pure_eval-0.2.4.tar.gz"
     sha256 "260c2774686e651b79f8b8e7fc9d80b3599ea6a66334b47d5f4abb69fc2c0ea1"
   end
@@ -345,7 +345,7 @@ class LocaEngine < Formula
     sha256 "51a9c5f7b2f8e636f04c6cada605d9b6a3bf1348fdf945a3d8869b19bba0ee08"
   end
 
-  resource "pydantic_core" do
+  resource "pydantic-core" do
     url "https://files.pythonhosted.org/packages/af/f9/8a06bea35ef8daf588f707784c973a7046e0034c8d8cfb08828eeffb8b75/pydantic_core-2.46.5.tar.gz"
     sha256 "10416c15b8839ecc4ef4d0885da76da6fd0f67333a0eb8aff6d93c4b8f2910fc"
   end
@@ -495,7 +495,7 @@ class LocaEngine < Formula
     sha256 "547274fa6b0a561ccf549cc9524b999a578e737d015d8709d021f9d0d13bea47"
   end
 
-  resource "typing_extensions" do
+  resource "typing-extensions" do
     url "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
     sha256 "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
   end
