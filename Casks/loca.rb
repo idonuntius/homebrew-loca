@@ -17,11 +17,11 @@ cask "loca" do
   # Hosted on the public tap repo's releases (the `Loca` monorepo is private).
   url "https://github.com/idonuntius/homebrew-loca/releases/download/v#{version}/Loca-#{version}.zip"
   name "Loca"
-  desc "Debug iOS location from your Mac — simulate a connected iPhone's GPS"
+  desc "Simulate a connected iPhone's GPS to debug location features"
   homepage "https://github.com/idonuntius/homebrew-loca"
 
   depends_on formula: "idonuntius/loca/loca-engine"
-  depends_on macos: ">= :sequoia" # macOS 26+ (adjust to the real minimum)
+  depends_on macos: ">= :tahoe" # macOS 26 (Tahoe) or newer
 
   app "Loca.app"
 
