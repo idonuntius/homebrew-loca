@@ -21,7 +21,7 @@ cask "loca" do
   homepage "https://github.com/idonuntius/homebrew-loca"
 
   depends_on formula: "idonuntius/loca/loca-engine"
-  depends_on macos: ">= :tahoe" # macOS 26 (Tahoe) or newer
+  depends_on macos: :tahoe # macOS 26 (Tahoe) or newer
 
   app "Loca.app"
 
