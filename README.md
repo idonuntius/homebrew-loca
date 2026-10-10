@@ -16,9 +16,31 @@ brew install --cask loca
 This installs two things:
 
 - **`loca-engine`** (formula) — the Location Engine, **GPL-3.0-or-later**, open source at
-  <https://github.com/idonuntius/loca-engine>. Homebrew resolves its Python dependencies.
+  <https://github.com/idonuntius/loca-engine>. A self-contained build (Python and all
+  dependencies bundled), so no other dependencies are installed.
 - **`loca`** (cask) — the signed, notarized **Loca.app** (proprietary). It talks to the
   engine over loopback HTTP and never links its GPL code.
+
+## Update
+
+The engine and the app are versioned and released **separately**, so update both:
+
+```sh
+brew update
+brew upgrade                      # upgrades everything outdated, including loca-engine and loca
+```
+
+Or update them explicitly:
+
+```sh
+brew update
+brew upgrade loca-engine          # the engine (formula)
+brew upgrade --cask loca          # the app (cask)
+```
+
+> `brew upgrade --cask loca` alone does **not** reliably upgrade `loca-engine` — when only the
+> engine has a new release it does nothing. Quit and reopen Loca after upgrading so it starts
+> the new engine.
 
 ## Usage (quick start)
 
