@@ -1,10 +1,12 @@
+<p align="center"><img src="icon.png" width="128" alt="Loca"></p>
+
 # Loca — Homebrew tap
 
 Install [Loca](https://github.com/idonuntius) — a developer tool to debug iOS location from
 your Mac by simulating a connected iPhone's GPS.
 
 > This directory is the **source** for the public tap repo `idonuntius/homebrew-loca`.
-> At release time its contents (`Formula/`, `Casks/`, this `README.md`) are copied there.
+> At release time its contents (`Formula/`, `Casks/`, this `README.md`, `icon.png`) are copied there.
 
 ## Install
 
