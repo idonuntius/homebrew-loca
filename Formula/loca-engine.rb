@@ -10,8 +10,8 @@
 class LocaEngine < Formula
   desc "Location Engine for Loca that simulates iPhone GPS via pymobiledevice3"
   homepage "https://github.com/idonuntius/loca-engine"
-  url "https://github.com/idonuntius/loca-engine/releases/download/v0.1.2/loca-engine-0.1.2-arm64.tar.gz"
-  sha256 "c2710c2821ff7d4f64690956463e045b1121cf8748cffb769cfc12c153eedce3"
+  url "https://github.com/idonuntius/loca-engine/releases/download/v0.1.3/loca-engine-0.1.3-arm64.tar.gz"
+  sha256 "fb2bef62669cd102af5282b7e31906aa9352c69302100e78242509457d220240"
   license "GPL-3.0-or-later"
 
   depends_on arch: :arm64
