@@ -12,8 +12,13 @@ your Mac by simulating a connected iPhone's GPS.
 
 ```sh
 brew tap idonuntius/loca
+brew trust idonuntius/loca
 brew install --cask loca
 ```
+
+> Homebrew 7+ refuses to load casks/formulae from a third-party tap until you trust it
+> (`Error: Refusing to load cask … from untrusted tap`). `brew trust idonuntius/loca` trusts the
+> whole tap — both the `loca` cask and the `loca-engine` formula — once per machine.
 
 This installs two things:
 
@@ -43,6 +48,9 @@ brew upgrade --cask loca          # the app (cask)
 > `brew upgrade --cask loca` alone does **not** reliably upgrade `loca-engine` — when only the
 > engine has a new release it does nothing. Quit and reopen Loca after upgrading so it starts
 > the new engine.
+
+Loca also checks for a newer engine on launch and offers **Update** at the top of its window,
+which runs the Homebrew upgrade and restarts the engine for you.
 
 ## Usage (quick start)
 
