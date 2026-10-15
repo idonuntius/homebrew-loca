@@ -11,8 +11,8 @@
 # The cask depends on the GPL engine formula, so `brew install --cask loca`
 # pulls both; the GUI finds `loca-engine` on PATH and spawns it.
 cask "loca" do
-  version "0.1.0"
-  sha256 "bd75d13f0bbdfd7dd36c60d068c924348b4dedce277016238b9a4efdb7ff69c8"
+  version "0.1.1"
+  sha256 "7b8dbdd152edbd2fec9da7233ca54050475afdba423b9df9dcabe225aa0fbb79"
 
   # Hosted on the public tap repo's releases (the `Loca` monorepo is private).
   url "https://github.com/idonuntius/homebrew-loca/releases/download/v#{version}/Loca-#{version}.zip"
